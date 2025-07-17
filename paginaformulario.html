@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<meta name="theme-color" content="#839F"
+
+    </head>
+
+    <body>
+<main>
+
+<header>
+<h1> Completa el siguiente formulario</h1>
+
+<p>completa el sisguiente formulario para que 
+    alguien de nuestro equipo se ponga en contacto
+     con usted</p>
+</header>
+
+
+<section>
+<form method="post"  action="/">
+
+    <fieldset>
+        
+<legend>Informacion Personal</legend>
+<div>
+<label>Nombre;
+<input 
+type="text" 
+name="NOMBRE" 
+placeholder="Acosta Lautaro" required>
+
+</label>
+</div>
+<label> email
+    
+    <input 
+type="Email" 
+name="Email" 
+placeholder="lautt26@gmail.com"required>
+
+</label>
+
+    </fieldset>
+
+    <fieldset>
+        
+<legend>Informacion Extra</legend>
+
+
+<label>telefono
+    
+    <input 
+type="tel" 
+name="tel" 
+placeholder="+5493804528103" required pattern="">
+
+
+ </fieldset>
+ <fieldset>
+<legend> Motivo</legend>
+<label for="why" id="why"></label>
+<select name="why" id="why">
+
+<option value="1">Problemas con la pagina</option>
+<option value="2">actualizacion</option>
+<option value="3">error con los servidores</option>
+</select>
+<div>
+<label for="terms"> aceptas los terminos y condiciones?</label>
+<input type="checkbox" id="terms" name="terms" required>
+</div>
+</fieldset>
+
+
+<button>Enviar</button>
+
+
+
+
+</div>
+</form>
+
+<details>
+<summary>En caso de no solucionar su problema</summary>
+<p>en caso de que su consulta no pudo ser resuelta via email se puedo comunicar 
+    al siguiente numero de <strong> 10hs hasta 18hs</strong>
+</p>
+<a href="tel: +5493804556545">numero de contacto</a>
+
+</details>
+
+</section>
+
+
+
+
+
+
+
+
+
+</main>
+
+
+
+
+    </body>
+    </html>
